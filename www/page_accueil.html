@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>page d'accueil</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js" ></script>
+</head>
+<body >
+        <button id="b1">Changer le thème</button>
+        <button id="b2">Changer la police</button>
+	<table id="myTable" border="2" cellpadding="10" cellspacing="2" width="100%" height="740px">
+
+      <tr>
+      <td> 
+      
+      	<h1> Bienvenue</h1>
+
+
+      	<form class="example">
+       <input id="myInput" type="text" placeholder="Que cherche-tu?" name="search">
+ 
+        </form>
+
+
+      	<table  border="1" id="tab">
+          <tr>
+            <td><img src="images/ptdej.jpg"/> 
+                 <div class="butt"  >
+                    <button onclick=window.location.href='petitdej.html'  type="submit">Petit déjeuner</button>
+                 </div> 
+            </td>
+            <td><img src="images/dejeuner.jpg" width= "680px" height="250px"/>
+                  <div class="butt" >
+                    <button onclick=window.location.href='dej.html' type="submit">Déjeuner</button>
+                  </div> 
+            </td>
+
+            <td> 
+            	<img src="images/diner.jpg"/> 
+            	  <div class="butt" >
+                    <button onclick=window.location.href='dinner.html' type="submit">Diner</button>
+                  </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            	<img src="images/cafethe.jpg" width= "680px" height="270px" /> 
+            	  <div class="butt" >
+                    <button  type="submit" onclick=window.location.href='cafethe.html'>Boissons</button>
+                  </div>
+            </td>
+            <td>
+            	<img src="images/exit.jpg" width= "680px" height="270px"/> 
+            	  <div class="butt" >
+                    <button id="service" type="submit">Sortir</button>
+                  </div>
+            </td>
+            <td>
+            	<img src="images/bestp.png"/> 
+            	  <div class="butt" >
+                    <button id="encours" type="submit">Meilleurs places</button>
+                  </div>
+            </td>
+          </tr>
+
+      	</table>
+
+      	
+        <table id="table">
+           <tr > 
+             <td id="tdo"> 
+                  <div class="bu" >
+                  	<img src="images/Rechercher.png" id="image"/> 
+                    <button onclick=window.location.href='page_accueil.html'  type="submit">Rechercher</button>
+                  </div> 
+              </td>
+             <td id="tdo"> 
+             	<div class="bu" >
+             		<img src="images/fav.png" id="image" /> 
+                    <button  type="submit" onclick=window.location.href='favoris.html'>Favoris</button>
+                </div>
+             </td>
+             <td id="tdo">
+                <div class="bu" >
+                	<img src="images/histo.jpg " id="image"/> 
+                    <button  type="submit" onclick=window.location.href='Historique.html'>Historique</button>
+                </div> 
+             </td>
+
+         </tr>
+
+</table>
+
+
+      </td>
+     </tr>
+
+
+	</table>	
+
+</body>
+</html>

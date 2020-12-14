@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>favoris</title>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    img {
+  border-radius: 8px;
+  width: 42%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+</style>
+</head>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js" ></script>
+
+</head>
+<body style="background-color:#ffffcc">
+	<h2>Favoris</h2>
+	<nav>
+	<input id="myInput"  type="search" name="contact" placeholder="Tes lieux">
+	</nav><br>
+	<div class="row">
+  <div class="column">
+   <table id="myTable" style="width:60%">
+    <tr>
+    <th> <img src="images/p2.jpg" alt="p" width="50" height="100">
+     <img src="images/4.jpg" alt="p" width="100" height="100"></th><br>
+    </tr>
+   </table>
+    <button id="lieus">Lieux Sauvgardés</button>
+  </div>
+  <div class="column">
+  <table id="myTable" style="width:60%">
+    <tr>
+    <th> <img src="images/face.jpg" alt="p" width="50" height="100">
+     <img src="images/p3.jpg" alt="p" width="100" height="100"></th><br>
+    </tr>
+   </table>
+     <button id="lieua">Lieux aimés</button>  
+  </div>
+<nav>
+	<input id="myInput"  type="search" name="contact" placeholder="Tes Plats">
+	</nav><br>
+	<div class="row">
+  <div class="column">
+   <table id="myTable" style="width:60%">
+    <tr>
+    <th> <img src="images/ch.jpg" alt="p" width="50" height="100">
+     <img src="images/bolo.jpg" alt="p" width="100" height="100"></th><br>
+    </tr>
+   </table>
+     <button id="plats">Plats Sauvgardés</button>
+  </div>
+  <div class="column">
+  <table id="myTable" style="width:60%">
+    <tr>
+    <th> <img src="images/2per.jpg" alt="p" width="50" height="100">
+     <img src="images/ca.jpg" alt="p" width="100" height="100"></th><br>
+    </tr>
+   </table>
+     <button id="plo">Plats aimés</button>  
+  </div>
+  <div>
+  <table>
+  <tr>
+  <th><img src="images/Rechercher.png" alt="p" width="50" height="100"></th>
+    <th><img src="images/fav.png" alt="p" width="100" height="100"></th>
+    <th><img src="images/histo.jpg" width="10px" height="50px" >
+  </tr>
+  <tr>
+    <td><center><button type="submit" onclick=window.location.href='page_accueil.html'>Rechercher</button></center></td>
+    <td><center><button type="submit" onclick=window.location.href='Favoris.html'>Favoris</button></center></td>
+    <td><center><button type="submit" onclick=window.location.href='Historique.html'>Historique</button></center></td>    
+  </tr>
+</table>
+</div>

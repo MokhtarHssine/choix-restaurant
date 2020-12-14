@@ -1,0 +1,149 @@
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background:url(images/goodf.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 490px 290px;
+    font-family: sans-serif;
+   background-position: center top 80px; 
+   background-color:#ffffcc;
+}
+h1{
+	        font-family:algerian;
+	        color: #93280D;
+			text-align: center;
+			font-size: 80px;
+            margin-top: 20px;
+			border-style:solid;
+			transition-property line-height: left:letter-spacing;
+			transition-duration: 0.5s  
+			margin:5;
+			padding: 150;
+			border-style: none;
+			margin-right:40px; 
+		}
+
+h1{
+			animation-duration: 3s;
+            animation-name:slidein;
+		}	
+		@keyframes slidein{
+			from{
+				margin-left: 100%;
+				width: 100%;
+			}
+             to{
+             	margin-left: 0%;
+             	width: 100%;
+             }
+		}	
+#tab
+{
+
+border: medium solid;
+width: 90%;
+height: 50%;
+margin:80px;
+margin-top:80px;
+margin-left:40px;
+margin-bottom:180px;
+}
+
+
+td {
+border: thin solid #6495ed;
+width: 80px;
+height:100%;
+}
+tr {
+border: thin solid #6495ed;
+width: 80px;
+height:30%;
+
+}
+img
+{
+width: 400px;
+height:300px;
+padding-left:10px;
+
+;	
+}
+.butt button[type= "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width:100%;
+    color : #007700;
+    background: #ffa366;
+    font-size: 20px;
+     font-family: cursive;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+  margin-top:280px;
+  margin-left:420px;
+}
+
+form.example button {
+  float: left;
+  width: 100px;
+  padding: 15px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+   margin-top:280px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+#tdo {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+#table {
+     border-collapse: collapse;
+     width: 800px;
+     margin-left:220px;
+
+
+}
+
+#image{
+
+width: 100px;
+height:50px
+
+}
+
